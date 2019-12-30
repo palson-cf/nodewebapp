@@ -6,7 +6,7 @@ var handleRequest = function (request, response) {
   
 };
 var www = http.createServer(handleRequest);
-www.listen(8080,function(){
+www.listen(80,function(){
 
     console.log("server listnening on 8080");
 });

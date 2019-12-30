@@ -2,5 +2,5 @@
 FROM node:10
 # replace this with your application's default port
 COPY server.js .
-EXPOSE 8080
+EXPOSE 80
 CMD node server.js
